@@ -1,0 +1,15 @@
+require "thor"
+ 
+class EnchanTestCLI < Thor
+  desc "start", "Start the EnchanTest back-end server"
+  def start
+    puts "Starting the back-end server..."
+
+    puts "ERROR: Could not start the server. Exiting."
+  end
+
+  # If no arguments are given we start the EnchanTest back-end server.
+  default_task :start
+end
+ 
+EnchanTestCLI.start(ARGV)

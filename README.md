@@ -66,13 +66,15 @@ EnchanTest is based on the following technologies:
 * [GodelTest](http://www.robertfeldt.net/publications/feldt_poulding_2013_finding_test_data_with_specific_properties.pdf) - our search-based software test automation tool
 * Forte - our own R package for analysing test outcomes and optimizing your (re-)testing
 
-Through specific plug-ins EnchanTest can also do low-level unit testing for specific languages. Currently available plug-ins:
+Through specific plug-ins EnchanTest can also do low-level unit testing for specific languages. 
+
+### Currently available plug-ins:
 
 * Julia
 
-Planned plug-ins (in rough order of priority):
+### Planned plug-ins (in rough order of priority):
 
-* Ruby
+* Ruby/AutoTest - to interface with Ruby's standard autotest unit testing framework
 * CSV
 * C# / DotNet
 * TTCN-3
