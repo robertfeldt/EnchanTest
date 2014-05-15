@@ -60,7 +60,7 @@ EnchanTest is based on the following technologies:
 * [Julia](http://www.julialang.org) - for our own machine learning and testing tools
 * [R](http://www.r-project.org/) - for accessing lots of existing statistical analyses and tests (that are not yet available in Julia)
 * Javascript, HTML and CSS - for implementing the web front end
-* D3.js - for interactive graphics and presentation of results in the web front end
+* [D3.js](http://d3js.org) - for interactive graphics and presentation of results in the web front end
 * [ElasticSearch](http://www.elasticsearch.org/overview/elasticsearch/) - for database handling and quick, free-text search and matching of messages
 * [Sikuli](http://www.sikuli.org/) - for visual testing of any software with a GUI
 * [GodelTest](http://www.robertfeldt.net/publications/feldt_poulding_2013_finding_test_data_with_specific_properties.pdf) - our search-based software test automation tool
