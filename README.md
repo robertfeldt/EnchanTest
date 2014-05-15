@@ -56,13 +56,13 @@ EnchanTest can currently only be installed from the command line, as a Ruby gem:
 
 EnchanTest is based on the following technologies:
 
-* Ruby - for gluing things together and for the command line tools
-* Julia - for our own machine learning and testing tools
-* R - for accessing lots of existing statistical analyses and tests (that are not yet available in Julia)
+* [Ruby](https://www.ruby-lang.org/en/) - for gluing things together and for the command line tools
+* [Julia](http://www.julialang.org) - for our own machine learning and testing tools
+* [R](http://www.r-project.org/) - for accessing lots of existing statistical analyses and tests (that are not yet available in Julia)
 * Javascript, HTML and CSS - for implementing the web front end
 * [ElasticSearch](http://www.elasticsearch.org/overview/elasticsearch/) - for database handling and quick, free-text search and matching of messages
-* Sikuli - for visual testing of any software with a GUI
-* GodelTest - our search-based software test automation tool
+* [Sikuli](http://www.sikuli.org/) - for visual testing of any software with a GUI
+* [GodelTest](http://www.robertfeldt.net/publications/feldt_poulding_2013_finding_test_data_with_specific_properties.pdf) - our search-based software test automation tool
 
 Through specific plug-ins EnchanTest can also do low-level unit tests for specific languages. Currently available plug-ins:
 
